@@ -11,7 +11,6 @@ schema_view = get_schema_view(
         description="API documentation for Weekly Schedule",
     ),
     public=True,
-    schemes=['https']
 )
 
 urlpatterns = [
