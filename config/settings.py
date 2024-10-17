@@ -7,9 +7,9 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-j8wy0tc9c0#uov)a6mqr*a9wpk)mp_powx3#6cai7d&q*q7w=h')
-DEBUG = os.getenv('DEBUG', 'True') == 'True'
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
-
+PORT = os.getenv('PORT', '8000')
 
 # Application definition
 
