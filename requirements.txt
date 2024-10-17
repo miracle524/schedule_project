@@ -1,6 +1,5 @@
 asgiref==3.8.1
 config==0.5.1
-corsheaders==4.5.0
 decouple==0.0.7
 Django==5.1.2
 django-cors-headers==4.5.0
